@@ -1,4 +1,5 @@
 test/*.out
 tb
+preprocessed/*
 *.vcd
 .DS_Store
