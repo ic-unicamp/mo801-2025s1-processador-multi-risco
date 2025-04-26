@@ -12,7 +12,7 @@ module registers(
 reg [31:0] registers [31:0]; // Register Memory
 
 initial begin
-  registers[0] <= 32'b00000000; // x0 is always 0
+  registers[0] = 32'b00000000; // x0 is always 0
 end
 
 assign registerData1 = registers[rs1];
